@@ -8,10 +8,10 @@ from numpy.testing import assert_allclose
 import numpy as np
 import pytest
 
-from macauff.matching import CrossMatch
-from macauff.photometric_likelihood import compute_photometric_likelihoods, make_bins
-from macauff.photometric_likelihood_fortran import photometric_likelihood_fortran as plf
-from macauff.misc_functions import StageData
+from macaufftest.matching import CrossMatch
+from macaufftest.photometric_likelihood import compute_photometric_likelihoods, make_bins
+from macaufftest.photometric_likelihood_fortran import photometric_likelihood_fortran as plf
+from macaufftest.misc_functions import StageData
 from test_matching import _replace_line
 
 

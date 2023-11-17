@@ -8,11 +8,11 @@ import numpy as np
 from numpy.testing import assert_allclose
 import scipy.special
 
-from macauff.misc_functions import (create_auf_params_grid, load_small_ref_auf_grid,
+from macaufftest.misc_functions import (create_auf_params_grid, load_small_ref_auf_grid,
                               hav_dist_constant_lat, map_large_index_to_small_index,
                               _load_rectangular_slice, _load_single_sky_slice,
                               _create_rectangular_slice_arrays, min_max_lon)
-from macauff.misc_functions_fortran import misc_functions_fortran as mff
+from macaufftest.misc_functions_fortran import misc_functions_fortran as mff
 
 
 def test_closest_auf_point():

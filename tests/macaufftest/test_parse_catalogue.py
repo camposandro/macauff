@@ -10,7 +10,7 @@ import pytest
 from numpy.testing import assert_allclose
 from astropy.coordinates import SkyCoord
 
-from macauff.parse_catalogue import csv_to_npy, npy_to_csv, rect_slice_npy, rect_slice_csv
+from macaufftest.parse_catalogue import csv_to_npy, npy_to_csv, rect_slice_npy, rect_slice_csv
 
 
 class TestParseCatalogue:

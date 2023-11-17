@@ -9,8 +9,8 @@ import sys
 import numpy as np
 import warnings
 
-from macauff.misc_functions import load_small_ref_auf_grid
-from macauff.counterpart_pairing_fortran import counterpart_pairing_fortran as cpf
+from macaufftest.misc_functions import load_small_ref_auf_grid
+from macaufftest.counterpart_pairing_fortran import counterpart_pairing_fortran as cpf
 
 __all__ = ['source_pairing']
 

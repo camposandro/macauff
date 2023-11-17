@@ -25,13 +25,13 @@ usetex = not not shutil.which("tex")
 if usetex:
     plt.rcParams.update({"text.usetex": True, "text.latex.preamble": r"\usepackage{amsmath}"})
 
-from macauff.galaxy_counts import create_galaxy_counts
-from macauff.perturbation_auf import (download_trilegal_simulation, _calculate_magnitude_offsets,
+from macaufftest.galaxy_counts import create_galaxy_counts
+from macaufftest.perturbation_auf import (download_trilegal_simulation, _calculate_magnitude_offsets,
                                make_tri_counts)
-from macauff.misc_functions import min_max_lon
-from macauff.misc_functions_fortran import misc_functions_fortran as mff
-from macauff.perturbation_auf_fortran import perturbation_auf_fortran as paf
-from macauff.get_trilegal_wrapper import get_AV_infinity
+from macaufftest.misc_functions import min_max_lon
+from macaufftest.misc_functions_fortran import misc_functions_fortran as mff
+from macaufftest.perturbation_auf_fortran import perturbation_auf_fortran as paf
+from macaufftest.get_trilegal_wrapper import get_AV_infinity
 
 
 __all__ = ['AstrometricCorrections']

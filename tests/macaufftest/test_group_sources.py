@@ -9,10 +9,10 @@ from numpy.testing import assert_allclose
 import numpy as np
 from scipy.special import j1
 
-from macauff.matching import CrossMatch
-from macauff.group_sources import make_island_groupings, _load_fourier_grid_cutouts, _clean_overlaps
-from macauff.group_sources_fortran import group_sources_fortran as gsf
-from macauff.misc_functions import _create_rectangular_slice_arrays, create_auf_params_grid
+from macaufftest.matching import CrossMatch
+from macaufftest.group_sources import make_island_groupings, _load_fourier_grid_cutouts, _clean_overlaps
+from macaufftest.group_sources_fortran import group_sources_fortran as gsf
+from macaufftest.misc_functions import _create_rectangular_slice_arrays, create_auf_params_grid
 from test_matching import _replace_line
 
 

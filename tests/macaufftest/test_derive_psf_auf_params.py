@@ -7,7 +7,7 @@ import numpy as np
 from numpy.testing import assert_allclose
 import os
 
-from macauff.derive_psf_auf_params import FitPSFPerturbations
+from macaufftest.derive_psf_auf_params import FitPSFPerturbations
 
 
 def test_derive_psf_auf_params():

@@ -10,11 +10,11 @@ from numpy.testing import assert_allclose
 from scipy.special import j0, j1
 from scipy.stats import skewnorm
 
-from macauff.matching import CrossMatch
-from macauff.misc_functions_fortran import misc_functions_fortran as mff
-from macauff.perturbation_auf import (make_perturb_aufs, download_trilegal_simulation,
+from macaufftest.matching import CrossMatch
+from macaufftest.misc_functions_fortran import misc_functions_fortran as mff
+from macaufftest.perturbation_auf import (make_perturb_aufs, download_trilegal_simulation,
                                 _calculate_magnitude_offsets, make_tri_counts)
-from macauff.perturbation_auf_fortran import perturbation_auf_fortran as paf
+from macaufftest.perturbation_auf_fortran import perturbation_auf_fortran as paf
 
 from test_matching import _replace_line
 

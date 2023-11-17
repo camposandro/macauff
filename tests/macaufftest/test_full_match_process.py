@@ -7,7 +7,7 @@ import os
 import numpy as np
 import pytest
 
-from macauff.matching import CrossMatch
+from macaufftest.matching import CrossMatch
 from test_matching import _replace_line
 
 __all__ = ['generate_random_data']

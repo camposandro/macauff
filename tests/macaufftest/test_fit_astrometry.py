@@ -9,7 +9,7 @@ import numpy as np
 from numpy.testing import assert_allclose
 import os
 
-from macauff.fit_astrometry import AstrometricCorrections, SNRMagnitudeRelationship
+from macaufftest.fit_astrometry import AstrometricCorrections, SNRMagnitudeRelationship
 
 
 class TestAstroCorrection:

@@ -9,9 +9,9 @@ from numpy.testing import assert_allclose
 import numpy as np
 import pytest
 
-from macauff.matching import CrossMatch
-from macauff.counterpart_pairing import source_pairing
-from macauff.counterpart_pairing_fortran import counterpart_pairing_fortran as cpf
+from macaufftest.matching import CrossMatch
+from macaufftest.counterpart_pairing import source_pairing
+from macaufftest.counterpart_pairing_fortran import counterpart_pairing_fortran as cpf
 from test_matching import _replace_line
 
 

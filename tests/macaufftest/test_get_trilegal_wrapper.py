@@ -6,7 +6,7 @@ Tests for the "get_trilegal_wrapper" module.
 import pytest
 from numpy.testing import assert_allclose
 
-from macauff.get_trilegal_wrapper import get_AV_infinity
+from macaufftest.get_trilegal_wrapper import get_AV_infinity
 
 
 @pytest.mark.remote_data

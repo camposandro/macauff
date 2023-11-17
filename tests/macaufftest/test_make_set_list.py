@@ -7,7 +7,7 @@ import os
 import pytest
 import numpy as np
 
-from macauff.make_set_list import _initial_group_numbering, set_list
+from macaufftest.make_set_list import _initial_group_numbering, set_list
 
 
 def test_initial_group_numbering():

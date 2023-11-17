@@ -16,15 +16,15 @@ try:
 except:
     MPI = None
 
-from macauff.perturbation_auf import make_perturb_aufs
-from macauff.group_sources import make_island_groupings
-from macauff.group_sources_fortran import group_sources_fortran as gsf
-from macauff.misc_functions import StageData
-from macauff.misc_functions_fortran import misc_functions_fortran as mff
-from macauff.photometric_likelihood import compute_photometric_likelihoods
-from macauff.counterpart_pairing import source_pairing
-from macauff.parse_catalogue import npy_to_csv, csv_to_npy
-from macauff.fit_astrometry import AstrometricCorrections, SNRMagnitudeRelationship
+from macaufftest.perturbation_auf import make_perturb_aufs
+from macaufftest.group_sources import make_island_groupings
+from macaufftest.group_sources_fortran import group_sources_fortran as gsf
+from macaufftest.misc_functions import StageData
+from macaufftest.misc_functions_fortran import misc_functions_fortran as mff
+from macaufftest.photometric_likelihood import compute_photometric_likelihoods
+from macaufftest.counterpart_pairing import source_pairing
+from macaufftest.parse_catalogue import npy_to_csv, csv_to_npy
+from macaufftest.fit_astrometry import AstrometricCorrections, SNRMagnitudeRelationship
 
 __all__ = ['CrossMatch']
 

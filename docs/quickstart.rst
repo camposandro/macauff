@@ -164,7 +164,7 @@ You can then, for example, calculate the on-sky separations between these source
 
 .. code-block:: python
 
-    from macauff.misc_functions_fortran import misc_functions_fortan as mff
+    from macaufftest.misc_functions_fortran import misc_functions_fortan as mff
     arcsec_seps = np.array([3600 * mff.haversine_wrapper(a_matches[i, 0], b_matches[i, 0],
                             a_matches[i, 1], b_matches[i, 1]) for i in range(len(a_matches))])
 

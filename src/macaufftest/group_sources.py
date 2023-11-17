@@ -11,11 +11,11 @@ import multiprocessing
 import itertools
 import numpy as np
 
-from macauff.misc_functions import (load_small_ref_auf_grid, hav_dist_constant_lat,
+from macaufftest.misc_functions import (load_small_ref_auf_grid, hav_dist_constant_lat,
                              map_large_index_to_small_index, _load_rectangular_slice,
                              _create_rectangular_slice_arrays, StageData)
-from macauff.group_sources_fortran import group_sources_fortran as gsf
-from macauff.make_set_list import set_list
+from macaufftest.group_sources_fortran import group_sources_fortran as gsf
+from macaufftest.make_set_list import set_list
 
 __all__ = ['make_island_groupings']
 

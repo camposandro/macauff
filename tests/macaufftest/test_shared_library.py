@@ -6,7 +6,7 @@ Tests for the "shared_library" module.
 from numpy.testing import assert_allclose
 import numpy as np
 
-from macauff.misc_functions_fortran import misc_functions_fortran as mff
+from macaufftest.misc_functions_fortran import misc_functions_fortran as mff
 
 
 def test_haversine_formula():

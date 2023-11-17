@@ -11,12 +11,12 @@ import signal
 import numpy as np
 from astropy.coordinates import SkyCoord
 
-from macauff.misc_functions import (create_auf_params_grid, _load_single_sky_slice,
+from macaufftest.misc_functions import (create_auf_params_grid, _load_single_sky_slice,
                              _load_rectangular_slice, _create_rectangular_slice_arrays, min_max_lon)
-from macauff.misc_functions_fortran import misc_functions_fortran as mff
-from macauff.get_trilegal_wrapper import get_trilegal, get_AV_infinity
-from macauff.perturbation_auf_fortran import perturbation_auf_fortran as paf
-from macauff.galaxy_counts import create_galaxy_counts
+from macaufftest.misc_functions_fortran import misc_functions_fortran as mff
+from macaufftest.get_trilegal_wrapper import get_trilegal, get_AV_infinity
+from macaufftest.perturbation_auf_fortran import perturbation_auf_fortran as paf
+from macaufftest.galaxy_counts import create_galaxy_counts
 
 __all__ = ['make_perturb_aufs', 'create_single_perturb_auf']
 

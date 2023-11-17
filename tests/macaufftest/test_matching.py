@@ -11,7 +11,7 @@ import pandas as pd
 import numpy as np
 
 from test_fit_astrometry import TestAstroCorrection as TAC
-from macauff.matching import CrossMatch
+from macaufftest.matching import CrossMatch
 
 
 def _replace_line(file_name, line_num, text, out_file=None):

@@ -9,8 +9,8 @@ import numpy as np
 from numpy.lib.format import open_memmap
 import pandas as pd
 
-from macauff.misc_functions import _load_rectangular_slice, _create_rectangular_slice_arrays
-from macauff.misc_functions_fortran import misc_functions_fortran as mff
+from macaufftest.misc_functions import _load_rectangular_slice, _create_rectangular_slice_arrays
+from macaufftest.misc_functions_fortran import misc_functions_fortran as mff
 
 __all__ = ['csv_to_npy', 'rect_slice_npy', 'npy_to_csv', 'rect_slice_csv']
 
