@@ -1,0 +1,1 @@
+{"regressions": [["benchmarks.peakmem_list", "graphs/Cython/branch-HEAD/build/machine-gh-runner/packaging/python-3.10/benchmarks.peakmem_list.json", {}, null, 132231168.0, 34181120.0, [[null, 219, 34181120.0, 57673728.0], [null, 333, 57673728.0, 96223232.0], [null, 470, 96223232.0, 132231168.0]]]]}
